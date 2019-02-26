@@ -5,5 +5,5 @@
 * Based on data from [United States Geological Survey (USGS)](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
 
 
-![Alt text](images/map1.png)
+![MAP1](images/map1.png)
 
