@@ -123,8 +123,8 @@ d3.json(queryUrl, function(data) {
     // Define a map object, 
     //create our map, giving it the streetmap and earthquakes layers to display on load
     var myMap = L.map("map", {
-        center: [37.09, -90.71],
-        zoom: 4.3,
+        center: [37.09, -95.71],
+        zoom: 4.5,
         layers: [outdoor, earthquakes_layer]
     });
 
