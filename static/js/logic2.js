@@ -1,6 +1,6 @@
 // Get the past 24 hours
 var today = new Date()
-var yesterday = new Date(new Date().getTime() - 24 * 60 * 60 * 1000);
+var yesterday = new Date(new Date().getTime() - 3*24 * 60 * 60 * 1000);
 
 console.log(today);
 console.log(yesterday);
@@ -124,7 +124,7 @@ d3.json(queryUrl, function(data) {
     //create our map, giving it the streetmap and earthquakes layers to display on load
     var myMap = L.map("map", {
         center: [37.09, -95.71],
-        zoom: 4.5,
+        zoom: 4.4,
         layers: [outdoor, earthquakes_layer]
     });
 
